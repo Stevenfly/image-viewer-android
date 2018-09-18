@@ -1,8 +1,10 @@
 # CS 349 A4 - Mobile Development
 
+![Screenshot](README.assets/Screenshot.png)
+
 ## Description
 
-See [assignment](https://www.student.cs.uwaterloo.ca/~cs349/s18/assignments/a4.html)
+An interactive mobile application that allows users to load images, and display these images in a dynamic layout that responds to device orientation. Users can rate images (1-5), and filter them based on this rating.
 
 ## List of functions
 
