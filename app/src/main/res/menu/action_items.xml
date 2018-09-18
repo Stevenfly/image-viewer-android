@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+        <item
+            android:id="@+id/action_star_1"
+            android:icon="@drawable/ic_star_border_reduced_padding"
+            android:title="@string/action_star_1"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/action_star_2"
+            android:icon="@drawable/ic_star_border_reduced_padding"
+            android:title="@string/action_star_2"
+            app:actionBarStyle="@style/ActionButtonStyle"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/action_star_3"
+            android:icon="@drawable/ic_star_border_reduced_padding"
+            android:title="@string/action_star_3"
+            android:actionBarStyle="@style/ActionButtonStyle"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/action_star_4"
+            android:icon="@drawable/ic_star_border_reduced_padding"
+            android:title="@string/action_star_4"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/action_star_5"
+            android:icon="@drawable/ic_star_border_reduced_padding"
+            android:title="@string/action_star_5"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/empty"
+            android:icon="@drawable/ic_more_vert_black_24dp"
+            android:title="@string/action_more"
+            app:showAsAction="always">
+            <menu>
+                <item
+                    android:id="@+id/action_clear"
+                    android:icon="@drawable/ic_action_clear"
+                    android:title="@string/action_clear"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/action_load"
+                    android:icon="@drawable/ic_action_load"
+                    android:title="@string/action_load"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/action_delete"
+                    android:icon="@drawable/ic_action_delete"
+                    android:title="@string/action_delete"
+                    app:showAsAction="never"/>
+            </menu>
+        </item>
+
+</menu>
