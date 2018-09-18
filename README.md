@@ -1,4 +1,4 @@
-# CS 349 A4 - Mobile Development
+# Image Viewer (Android)
 
 <img src="README.assets/Screenshot.png" width="250">
 
