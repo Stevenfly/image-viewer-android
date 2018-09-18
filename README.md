@@ -1,6 +1,6 @@
 # CS 349 A4 - Mobile Development
 
-![Screenshot](README.assets/Screenshot.png)
+![Screenshot](README.assets/Screenshot.png =250x)
 
 ## Description
 
